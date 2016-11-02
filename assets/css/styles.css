@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+}
+
+.container {
+  width: 95%;
+  max-width: 1100px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* LoginComponent */
+.login-form {
+  max-width: 400px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+
+/* Material components */
+md-card-footer {
+  position: inherit !important;
+}
