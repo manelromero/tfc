@@ -11,6 +11,7 @@ import { LoginComponent } from './components/login.component';
 import { GestionComponent } from './components/gestion.component';
 
 import { routing } from './app.routing';
+import { Servidor } from './services/servidor.service';
 
 @NgModule({
   imports: [
@@ -26,6 +27,9 @@ import { routing } from './app.routing';
     LoginComponent,
     GestionComponent
   ],
-  bootstrap: [ AppComponent ]
+  providers: [
+    Servidor
+  ],
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
