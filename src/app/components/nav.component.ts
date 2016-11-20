@@ -5,10 +5,12 @@ import { Component } from '@angular/core';
   template: `
     <nav>
       <div class="logo">
-        <img src="../../assets/images/logo.svg" alt="Logo">
+        <img src="{{logo}}" alt="Logo">
       </div>
     </nav>  
   `,
-  styleUrls: ['../../assets/css/navigation.component.css']
+  styleUrls: ['../assets/css/navigation.component.css']
 })
-export class NavComponent {}
+export class NavComponent {
+  logo = '../assets/images/logo.svg';
+}

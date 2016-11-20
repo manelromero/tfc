@@ -6,7 +6,7 @@ import { URLS } from '../models/url';
 
 @Component({
   selector: 'login',
-  templateUrl: '../../assets/html/login.component.html' 
+  templateUrl: '../assets/html/login.component.html' 
 })
 export class LoginComponent {
 

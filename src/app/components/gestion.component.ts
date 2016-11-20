@@ -12,7 +12,12 @@ interface User {
 
 @Component({
   selector: 'gestion',
-  template: 'Este es el componente GestionComponent'
+  template: `
+    <seleccionar-empresa></seleccionar-empresa>
+    <nueva-empresa></nueva-empresa>
+    <tablas></tablas>
+    <informes></informes>  
+  `
 })
 export class GestionComponent implements OnInit {
   token = sessionStorage.getItem('token');
